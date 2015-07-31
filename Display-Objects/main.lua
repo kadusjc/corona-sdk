@@ -1,9 +1,9 @@
 local background = display.newImage( "images/Texaco.png",  true );
-local image01 = display.newImage( "images/check.png", 110, 30 );
-local image02 = display.newImage( "images/check.png" );
-image02.x = 160; image02.y = 220;
-image03 = display.newImage( "images/check.png" );
-image03.x = 160; image03.y = 320;
-image01.x = 160; image01.y = 420;
+local firstCheckImage = display.newImage( "images/check.png", 110, 30 );
+local secondCheckImage = display.newImage( "images/check.png" );
+secondCheckImage.x = 160; secondCheckImage.y = 220;
+thirdCheckImage = display.newImage( "images/check.png" );
+thirdCheckImage.x = 160; thirdCheckImage.y = 320;
+firstCheckImage.x = 160; firstCheckImage.y = 420;
 
 background.alpha = 0.4;
